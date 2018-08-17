@@ -35,6 +35,7 @@ def self.find_by_artist(artist)
     # do I have a method that can add a song to an artist?
     # how can I refer to the artist?
     # how can I refer to the song?
+    binding.pry
     self.artist.add_song(self)
   end
 
